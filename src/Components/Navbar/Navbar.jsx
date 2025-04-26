@@ -2,7 +2,11 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <>
+    <nav className='bg-green-300 p-5'>
+        <div className='font-semibold text-black text-[25px] text-center'>User Management System</div>
+    </nav>
+    </>
   )
 }
 
