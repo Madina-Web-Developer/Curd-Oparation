@@ -3,6 +3,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import './App.css'
 import Layoutone from './Components/Layouts/Layoutone'
 import Home from './Components/Pages/Home'
+import Userspage from './Components/Pages/Userspage'
 
 function App() {
   
@@ -11,6 +12,7 @@ const myroute = createBrowserRouter(
       <Route>
       <Route path='/' element={<Layoutone/>}>
       <Route index element={<Home/>}/>
+      <Route path='/users' element={<Userspage/>}/>
       </Route>
       </Route>    
   )
